@@ -164,7 +164,7 @@ export default function Game() {
             <div style={{ textAlign: "center" }}>
                 <div style={{textAlign: "center",height: "25%", width: "50%", marginLeft: "24%",marginTop:"1%"}}>
                     <img src={currentData.url} style={{height:"30%",width:"50%",padding:"1%"}} alt={currentData.caption}/>
-                    <p style={{fontWeight:"bold"}}>CHOOSE THE SENTENCE THAT MATCHES THE ABOVE PICTURE</p>
+                    <p style={{fontWeight:"bold"}}>CHOOSE THE PASSAGE THAT MATCHES THE ABOVE PICTURE</p>
                 </div>
             
         <Option  currentData={currentData} handleCheckboxChange={handleCheckboxChange} BgColor={BgColor} img={img} AudioOption={AudioOption} playAudio={playAudio} isSpeaking={isSpeaking} selectedOptionIndex={selectedOptionIndex}  />
