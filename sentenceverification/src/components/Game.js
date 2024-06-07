@@ -154,6 +154,7 @@ export default function Game() {
        
     }
     
+    
   return (
     <div  >
     {nextBut && <Header total={total} current={current} section={sectionIndex}/>}
