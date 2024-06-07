@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react'
-// import Navbar from './Navbar'
 import file from './questions.json';
 import Header from './Header';
  import PopUpCard1 from './PopUpCard1';
